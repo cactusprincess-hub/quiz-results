@@ -29,43 +29,51 @@ You can create a new environment by running the following command in the termina
 ```bash
 conda create -n plasmidgpt python=3.10
 conda activate plasmidgpt
-
-`### **3. Install Dependencies**` 
+```
+### 3. Install Dependencies
 
 The following Python libraries are required to run the code: 
-• numpy • matplotlib • pandas • scikit-learn  
+• numpy 
+• matplotlib 
+• pandas 
+• scikit-learn  
 You can install these dependencies using the following commands: 
 
 ```bash 
 conda install numpy matplotlib pandas scikit-learn
-### **4. Running the Visualization Script**
+```
+### 4. Running the Visualization Script
 
 After setting up the environment and installing the dependencies, run the visualization script: 
   
 ```bash  
 python visualize_embeddings.py
-This will generate a 2D plot visualizing the embeddings using t-SNE. 
-###**5. Input Files**
+# This will generate a 2D plot visualizing the embeddings using t-SNE.
+```
+### 5. Input Files
    
 The input files embeddings_output.txt and new_embeddings_output.txt contain the embeddings data for two different datasets. These files should be placed in the same directory as the script or the paths should be updated in the script accordingly. 
-##**Results** 
+
+## Results 
 
 The result of running the script will be a 2D scatter plot, where:
 -Red points represent embeddings from the first dataset. 
 -Blue points represent embeddings from the second dataset. (long sequence) 
-##**License** 
+
+## License 
 
 This repository is licensed under the MIT License. 
 See the LICENSE file for more information.(https://github.com/lingxusb/PlasmidGPT/blob/main/LICENSE)
-##**Contact**
 
+## Contact
 For any questions or issues, please contact 3858233918@qq.com.
 
-###** Changes made:**
+### Changes made:
 1. **Code block formatting**: Fixed markdown code blocks for clarity.
 2. **Improved readability**: Split long lines and added proper indentation.
 3. **Fixed minor typos**: Such as “Red points represent embeddings from the first dataset” and “long sequences.”
 4. **Fixed links**: The LICENSE file link now works correctly.
 
 This should now be ready for your GitHub repository!
+
 
