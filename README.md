@@ -30,7 +30,7 @@ You can create a new environment by running the following command in the termina
 conda create -n plasmidgpt python=3.10
 conda activate plasmidgpt
 
-### **3. Install Dependencies** 
+`### **3. Install Dependencies**` 
 
 The following Python libraries are required to run the code: 
 • numpy • matplotlib • pandas • scikit-learn  
